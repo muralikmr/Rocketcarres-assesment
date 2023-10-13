@@ -1,0 +1,86 @@
+header{
+    position:fixed;
+    top:0px;
+    left: 0px;
+    width: 80%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    z-index:99;
+}
+.logo{
+    font-size:2em;
+    color:black;
+    user-select:none;
+}
+.navigation a{
+    position:relative;
+    font-size:1.1em;
+    color:rgb(88, 87, 87);
+    text-decoration: none;
+    font-weight:500;
+    margin-left: 40px;
+}
+.navigation a:hover{
+    background-color:rgb(228, 42, 203);
+    color:#fff;
+}
+.navigation .btnlogin-popup{
+    width:130px;
+    height:50px;
+    background:lightseagreen;
+    border: 2px solid ;
+    outline: none;
+    border-radius: 50px;
+    cursor:pointer;
+    font-size:1.1em;
+    color:#fff;
+    font-weight:500;
+    margin-left:40px;
+}
+.navigation a::after{
+    content:' ';
+    position: absolute;
+    width:100%;
+    height:3px;
+    background:#fff;
+    border-radius:5px;
+}
+#strt{
+   margin-left: 15%;
+   margin-top: 30px;
+   padding: 150px;
+   font-size: 50px;
+   color:rgb(4, 4, 68);
+}
+.pera1{
+    text-align: center;
+   margin-left: 30%;
+   width: 400px;
+}
+.pera2{
+    color:lightseagreen;
+    margin-left: 30%;
+
+   width: 400px;
+}
+.pera3{
+    color:lightseagreen;
+    margin-left: 38%;
+   width: 400px;
+}
+.btnlogin-popup2{
+
+    width:230px;
+    height:50px;
+    background:lightseagreen;
+    border: 2px solid ;
+    outline: none;
+    border-radius: 50px;
+    cursor:pointer;
+    font-size:1.1em;
+    color:#fff;
+    font-weight:500;
+    margin-left:40px;
+}
